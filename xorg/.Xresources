@@ -1,4 +1,31 @@
 
+!Change the FontSize
+
+! xterm*vt100*translations: #override \n\
+!	Ctrl <key> -: smaller-vt-font() \n\
+!	Ctrl <key> +: larger-vt-font()
+! Does Not Working!
+
+!Use truetype font and size.
+
+xterm*faceName: DejaVu Sans Mono
+xterm*faceSize: 12
+
+
+!Change Background Color
+
+xterm*Background: black
+xterm*Foreground: white
+
+!Make copy paste work
+!Note even this line was handwritten [since copy paste does not work now]
+
+Xterm*selectToClipboard: true
+! Shift + insert to paste the selection (Xwindow selection)
+
+*VT100*translations:	#override \n\
+	Ctrl <keyPress> Insert: copy-selection(CLIPBOARD) \n\
+	Shift <keyPress> Insert: insert-selection(CLIPBOARD)
 
 !Change the FontSize
 
@@ -17,3 +44,32 @@ xterm*faceSize: 12
 
 xterm*Background: black
 xterm*Foreground: white
+
+!Make copy paste work
+!Note even this line was handwritten [since copy paste does not work now]
+
+! Xterm*selectToClipboard: true
+! Not working :(
+!Change the FontSize
+
+! xterm*vt100*translations: #override \n\
+!	Ctrl <key> -: smaller-vt-font() \n\
+!	Ctrl <key> +: larger-vt-font()
+! Does Not Working!
+
+!Use truetype font and size.
+
+xterm*faceName: DejaVu Sans Mono
+xterm*faceSize: 12
+
+
+!Change Background Color
+
+xterm*Background: black
+xterm*Foreground: white
+
+!Make copy paste work
+!Note even this line was handwritten [since copy paste does not work now]
+
+Xterm*selectToClipboard: true
+
