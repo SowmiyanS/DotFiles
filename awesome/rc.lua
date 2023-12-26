@@ -543,7 +543,7 @@ awful.rules.rules = {
             placement = awful.placement.centered }  -- Modified by [Sowmiyan] added this new piece of code it set useless gap for only xterm
     },
       -- Set Firefox to always map on the tag named "2" on screen 1.
-    { rule = { class = "firefox" },
+    { rule = { class = "Firefox-esr" }, -- updated class name using xprop
         properties = { screen = 1, tag = "2" },
         -- properties = { useless_gap = 10 },
         properties = {
@@ -552,16 +552,14 @@ awful.rules.rules = {
             floating = false }
     }, -- Modified by [Sowmiyan] uncommented this code block and added a new property that will set the firefox to not launch in floating by default
       -- Set Microsoft-edge-stable to always map on the tag named "2" on screen 1.
-    { rule = { class = "microsoft-edge-stable" },
-        properties = { screen = 1, tag = "2" },
-        -- properties = { useless_gap = 10 },
-        properties = {
+    { rule = { class = "microsoft-edge" }, -- updated class name using xprop
+        properties = { screen = 1, tag = "2",
             opacity = 1,
             maximized = false,
-            floating = false }
+            floating = false },
     }, -- Modified by [Sowmiyan] uncommented this code block and added a new property that will set the firefox to not launch in floating by default
       -- Set google-chrome-stable to always map on the tag named "2" on screen 1.
-    { rule = { class = "google-chrome-stable" },
+    { rule = { class = "google-chrome" }, -- updated class name using xprop
         properties = { screen = 1, tag = "2" },
         -- properties = { useless_gap = 10 },
         properties = {
