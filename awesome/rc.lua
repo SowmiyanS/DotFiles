@@ -197,7 +197,7 @@ awful.screen.connect_for_each_screen(function(s)
     -- Each screen has its own tag table.
     -- awful.tag({ "1", "2", "3", "4", "5", "6", "7", "8", "9" }, s, awful.layout.layouts[1])
 	-- Above is the default below is modified my sowmiyan
-	local names = { "desktop", "web", "code", "workplace", "tile" }
+	local names = { "dsktp", "www", "code", "serv", "tile" }
 	local als = awful.layout.suit -- just to save typing
 	local layouts = { als.floating, als.tile.left, als.tile, als.fair.horizontal, als.tile.left }
 	awful.tag(names, s, layouts) -- I don't know what is s here.
