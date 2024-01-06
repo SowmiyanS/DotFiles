@@ -1,3 +1,10 @@
+--  _____  _   _
+-- / ____|| \ | |    Author : Sowmiyan S [SowmiN]
+--| (___  |  \| |    https://github.com/SowmiyanS
+-- \___ \ | . ` |    https://app-sowmin.web.app
+-- ____) || |\  |    sowmiyan9491@gmail.com
+--|_____/ |_| \_|  
+
 -- If LuaRocks is installed, make sure that packages installed through it are
 -- found (e.g. lgi). If LuaRocks is not installed, do nothing.
 pcall(require, "luarocks.loader")
@@ -544,7 +551,7 @@ awful.rules.rules = {
     },
       -- Set Firefox to always map on the tag named "2" on screen 1.
     { rule = { class = "Firefox-esr" }, -- updated class name using xprop
-        properties = { screen = 1, tag = "2" },
+        properties = { screen = 1, tag = "www" },
         -- properties = { useless_gap = 10 },
         properties = {
             opacity = 1,
@@ -553,14 +560,14 @@ awful.rules.rules = {
     }, -- Modified by [Sowmiyan] uncommented this code block and added a new property that will set the firefox to not launch in floating by default
       -- Set Microsoft-edge-stable to always map on the tag named "2" on screen 1.
     { rule = { class = "microsoft-edge" }, -- updated class name using xprop
-        properties = { screen = 1, tag = "2",
+        properties = { screen = 1, tag = "www",
             opacity = 1,
             maximized = false,
             floating = false },
     }, -- Modified by [Sowmiyan] uncommented this code block and added a new property that will set the firefox to not launch in floating by default
       -- Set google-chrome-stable to always map on the tag named "2" on screen 1.
     { rule = { class = "google-chrome" }, -- updated class name using xprop
-        properties = { screen = 1, tag = "2" },
+        properties = { screen = 1, tag = "www" },
         -- properties = { useless_gap = 10 },
         properties = {
             opacity = 1,

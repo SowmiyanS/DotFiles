@@ -145,3 +145,14 @@ let g:user_emmet_settings = {
 \}
 
 " Emmet Code ends ##############################################################
+
+" Snippets in vim ##############################################################
+
+iabbrev csn /*<Cr>***_____<Space><Space>_<Space><Space><Space>_<Cr>*\/<Space>____\|\|<Space>\<Space>\|<Space>\|<Space><Space>  Author  : Sowmiyan S [SowmiN]<Cr>*\|<Space>(___<Space><Space>\|<Space><Space>\\|<Space>\|<Space><Space>  https://github.com/SowmiyanS<Cr>**\___<Space>\<Space>\|<Space>.<Space>`<Space>\|<Space><Space>  https://app-sowmin.web.app<Cr>**____)<Space>\|\|<Space>\|\<Space><Space>\|<Space><Space><Cr>*\|_____/<Space>\|_\|<Space>\_\|<Space><Space><Cr>***<Cr>*/<Cr>
+
+iabbrev nsn <Cr>***_____<Space><Space>_<Space><Space><Space>_<Cr>**/<Space>____\|\|<Space>\<Space>\|<Space>\|<Space><Space>  Author  : Sowmiyan S [SowmiN]<Cr>*\|<Space>(___<Space><Space>\|<Space><Space>\\|<Space>\|<Space><Space>  https://github.com/SowmiyanS<Cr>**\___<Space>\<Space>\|<Space>.<Space>`<Space>\|<Space><Space>  https://app-sowmin.web.app<Cr>**____)<Space>\|\|<Space>\|\<Space><Space>\|<Space><Space><Cr>*\|_____/<Space>\|_\|<Space>\_\|<Space><Space><Cr>***<Cr>
+
+iabbrev mitlicense MIT License<Cr><Cr>Copyright (c) 2024 Sowmiyan S<Cr><Cr>Permission is hereby granted, free of charge, to any person obtaining a copy<Cr>of this software and associated documentation files (the "Software"), to deal<Cr>in the Software without restriction, including without limitation the rights<Cr>to use, copy, modify, merge, publish, distribute, sublicense, and/or sell<Cr>copies of the Software, and to permit persons to whom the Software is<Cr>furnished to do so, subject to the following conditions:<Cr><Cr>The above copyright notice and this permission notice shall be included in all<Cr>copies or substantial portions of the Software.<Cr><Cr>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR<Cr>IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,<Cr>FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE<Cr>AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER<Cr>LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,<Cr>OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE<Cr>SOFTWARE.
+
+
+" Snippets in vim ##############################################################
